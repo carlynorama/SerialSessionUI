@@ -8,10 +8,8 @@
 import SwiftUI
 import SerialSession
 
-
-
 struct ContentView: View {
-    @StateObject var serialSession:SimpleSerialSession = SerialSession(portName: "/dev/cu.usbmodem1101")
+    @StateObject var serialSession:SimpleSerialSession = SimpleSerialSession(portName: "/dev/cu.usbmodem1101")
     
     var body: some View {
         TabView {
@@ -19,7 +17,6 @@ struct ContentView: View {
             WriteView()
         }.environmentObject(serialSession)
     }
-
 }
 
 struct ContentView_Previews: PreviewProvider {

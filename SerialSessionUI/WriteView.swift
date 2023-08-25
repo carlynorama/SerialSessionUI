@@ -27,10 +27,6 @@ struct WriteView: View {
                 }
             }
             .padding()
-            .onAppear() {
-                serialWriter.pingII()
-                //echoTest.run()
-            }
         }
 }
 

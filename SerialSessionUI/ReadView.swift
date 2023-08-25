@@ -23,10 +23,6 @@ struct ReadView: View {
             }
         }
         .padding()
-        .onAppear() {
-            serialReader.pingII()
-            //echoTest.run()
-        }
     }
     
     func updateText() {
