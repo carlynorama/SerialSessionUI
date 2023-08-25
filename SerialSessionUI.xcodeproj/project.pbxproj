@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D29572962A99261100BC6CE9 /* SerialSession in Frameworks */ = {isa = PBXBuildFile; productRef = D29572952A99261100BC6CE9 /* SerialSession */; };
+		D29572982A99265100BC6CE9 /* SerialSession+Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29572972A99265100BC6CE9 /* SerialSession+Observable.swift */; };
 		D2D274CE2A991FD000E623B5 /* SerialSessionUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D274CD2A991FD000E623B5 /* SerialSessionUIApp.swift */; };
 		D2D274D02A991FD000E623B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D274CF2A991FD000E623B5 /* ContentView.swift */; };
 		D2D274D22A991FD100E623B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D274D12A991FD100E623B5 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		D2D274E02A991FD100E623B5 /* SerialSessionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D274DF2A991FD100E623B5 /* SerialSessionUITests.swift */; };
 		D2D274EA2A991FD100E623B5 /* SerialSessionUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D274E92A991FD100E623B5 /* SerialSessionUIUITests.swift */; };
 		D2D274EC2A991FD100E623B5 /* SerialSessionUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D274EB2A991FD100E623B5 /* SerialSessionUIUITestsLaunchTests.swift */; };
+		D2D274FB2A99202A00E623B5 /* ReadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D274FA2A99202A00E623B5 /* ReadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D29572972A99265100BC6CE9 /* SerialSession+Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SerialSession+Observable.swift"; sourceTree = "<group>"; };
 		D2D274CA2A991FD000E623B5 /* SerialSessionUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SerialSessionUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D274CD2A991FD000E623B5 /* SerialSessionUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialSessionUIApp.swift; sourceTree = "<group>"; };
 		D2D274CF2A991FD000E623B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +49,8 @@
 		D2D274E52A991FD100E623B5 /* SerialSessionUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerialSessionUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D274E92A991FD100E623B5 /* SerialSessionUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialSessionUIUITests.swift; sourceTree = "<group>"; };
 		D2D274EB2A991FD100E623B5 /* SerialSessionUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialSessionUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2D274F92A99200400E623B5 /* SerialSession */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SerialSession; path = ../SerialSession; sourceTree = "<group>"; };
+		D2D274FA2A99202A00E623B5 /* ReadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D29572962A99261100BC6CE9 /* SerialSession in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,13 +79,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D29572942A99261100BC6CE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D2D274C12A991FD000E623B5 = {
 			isa = PBXGroup;
 			children = (
+				D2D274F82A99200400E623B5 /* Packages */,
 				D2D274CC2A991FD000E623B5 /* SerialSessionUI */,
 				D2D274DE2A991FD100E623B5 /* SerialSessionUITests */,
 				D2D274E82A991FD100E623B5 /* SerialSessionUIUITests */,
 				D2D274CB2A991FD000E623B5 /* Products */,
+				D29572942A99261100BC6CE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,11 +111,13 @@
 		D2D274CC2A991FD000E623B5 /* SerialSessionUI */ = {
 			isa = PBXGroup;
 			children = (
+				D2D274FA2A99202A00E623B5 /* ReadView.swift */,
 				D2D274CD2A991FD000E623B5 /* SerialSessionUIApp.swift */,
 				D2D274CF2A991FD000E623B5 /* ContentView.swift */,
 				D2D274D12A991FD100E623B5 /* Assets.xcassets */,
 				D2D274D62A991FD100E623B5 /* SerialSessionUI.entitlements */,
 				D2D274D32A991FD100E623B5 /* Preview Content */,
+				D29572972A99265100BC6CE9 /* SerialSession+Observable.swift */,
 			);
 			path = SerialSessionUI;
 			sourceTree = "<group>";
@@ -129,6 +147,14 @@
 			path = SerialSessionUIUITests;
 			sourceTree = "<group>";
 		};
+		D2D274F82A99200400E623B5 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				D2D274F92A99200400E623B5 /* SerialSession */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +171,9 @@
 			dependencies = (
 			);
 			name = SerialSessionUI;
+			packageProductDependencies = (
+				D29572952A99261100BC6CE9 /* SerialSession */,
+			);
 			productName = SerialSessionUI;
 			productReference = D2D274CA2A991FD000E623B5 /* SerialSessionUI.app */;
 			productType = "com.apple.product-type.application";
@@ -260,6 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2D274D02A991FD000E623B5 /* ContentView.swift in Sources */,
+				D29572982A99265100BC6CE9 /* SerialSession+Observable.swift in Sources */,
+				D2D274FB2A99202A00E623B5 /* ReadView.swift in Sources */,
 				D2D274CE2A991FD000E623B5 /* SerialSessionUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -576,6 +607,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D29572952A99261100BC6CE9 /* SerialSession */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SerialSession;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D2D274C22A991FD000E623B5 /* Project object */;
 }
