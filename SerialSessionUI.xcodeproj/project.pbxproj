@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2D274CE2A991FD000E623B5 /* SerialSessionUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D274CD2A991FD000E623B5 /* SerialSessionUIApp.swift */; };
+		D2D274D02A991FD000E623B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D274CF2A991FD000E623B5 /* ContentView.swift */; };
+		D2D274D22A991FD100E623B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D274D12A991FD100E623B5 /* Assets.xcassets */; };
+		D2D274D52A991FD100E623B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D274D42A991FD100E623B5 /* Preview Assets.xcassets */; };
+		D2D274E02A991FD100E623B5 /* SerialSessionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D274DF2A991FD100E623B5 /* SerialSessionUITests.swift */; };
+		D2D274EA2A991FD100E623B5 /* SerialSessionUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D274E92A991FD100E623B5 /* SerialSessionUIUITests.swift */; };
+		D2D274EC2A991FD100E623B5 /* SerialSessionUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D274EB2A991FD100E623B5 /* SerialSessionUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2D274DC2A991FD100E623B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2D274C22A991FD000E623B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2D274C92A991FD000E623B5;
+			remoteInfo = SerialSessionUI;
+		};
+		D2D274E62A991FD100E623B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2D274C22A991FD000E623B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2D274C92A991FD000E623B5;
+			remoteInfo = SerialSessionUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2D274CA2A991FD000E623B5 /* SerialSessionUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SerialSessionUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D274CD2A991FD000E623B5 /* SerialSessionUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialSessionUIApp.swift; sourceTree = "<group>"; };
+		D2D274CF2A991FD000E623B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2D274D12A991FD100E623B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2D274D42A991FD100E623B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2D274D62A991FD100E623B5 /* SerialSessionUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SerialSessionUI.entitlements; sourceTree = "<group>"; };
+		D2D274DB2A991FD100E623B5 /* SerialSessionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerialSessionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D274DF2A991FD100E623B5 /* SerialSessionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialSessionUITests.swift; sourceTree = "<group>"; };
+		D2D274E52A991FD100E623B5 /* SerialSessionUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerialSessionUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D274E92A991FD100E623B5 /* SerialSessionUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialSessionUIUITests.swift; sourceTree = "<group>"; };
+		D2D274EB2A991FD100E623B5 /* SerialSessionUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialSessionUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2D274C72A991FD000E623B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D274D82A991FD100E623B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D274E22A991FD100E623B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2D274C12A991FD000E623B5 = {
+			isa = PBXGroup;
+			children = (
+				D2D274CC2A991FD000E623B5 /* SerialSessionUI */,
+				D2D274DE2A991FD100E623B5 /* SerialSessionUITests */,
+				D2D274E82A991FD100E623B5 /* SerialSessionUIUITests */,
+				D2D274CB2A991FD000E623B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2D274CB2A991FD000E623B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2D274CA2A991FD000E623B5 /* SerialSessionUI.app */,
+				D2D274DB2A991FD100E623B5 /* SerialSessionUITests.xctest */,
+				D2D274E52A991FD100E623B5 /* SerialSessionUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2D274CC2A991FD000E623B5 /* SerialSessionUI */ = {
+			isa = PBXGroup;
+			children = (
+				D2D274CD2A991FD000E623B5 /* SerialSessionUIApp.swift */,
+				D2D274CF2A991FD000E623B5 /* ContentView.swift */,
+				D2D274D12A991FD100E623B5 /* Assets.xcassets */,
+				D2D274D62A991FD100E623B5 /* SerialSessionUI.entitlements */,
+				D2D274D32A991FD100E623B5 /* Preview Content */,
+			);
+			path = SerialSessionUI;
+			sourceTree = "<group>";
+		};
+		D2D274D32A991FD100E623B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D2D274D42A991FD100E623B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D2D274DE2A991FD100E623B5 /* SerialSessionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2D274DF2A991FD100E623B5 /* SerialSessionUITests.swift */,
+			);
+			path = SerialSessionUITests;
+			sourceTree = "<group>";
+		};
+		D2D274E82A991FD100E623B5 /* SerialSessionUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2D274E92A991FD100E623B5 /* SerialSessionUIUITests.swift */,
+				D2D274EB2A991FD100E623B5 /* SerialSessionUIUITestsLaunchTests.swift */,
+			);
+			path = SerialSessionUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2D274C92A991FD000E623B5 /* SerialSessionUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D274EF2A991FD100E623B5 /* Build configuration list for PBXNativeTarget "SerialSessionUI" */;
+			buildPhases = (
+				D2D274C62A991FD000E623B5 /* Sources */,
+				D2D274C72A991FD000E623B5 /* Frameworks */,
+				D2D274C82A991FD000E623B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SerialSessionUI;
+			productName = SerialSessionUI;
+			productReference = D2D274CA2A991FD000E623B5 /* SerialSessionUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2D274DA2A991FD100E623B5 /* SerialSessionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D274F22A991FD100E623B5 /* Build configuration list for PBXNativeTarget "SerialSessionUITests" */;
+			buildPhases = (
+				D2D274D72A991FD100E623B5 /* Sources */,
+				D2D274D82A991FD100E623B5 /* Frameworks */,
+				D2D274D92A991FD100E623B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2D274DD2A991FD100E623B5 /* PBXTargetDependency */,
+			);
+			name = SerialSessionUITests;
+			productName = SerialSessionUITests;
+			productReference = D2D274DB2A991FD100E623B5 /* SerialSessionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2D274E42A991FD100E623B5 /* SerialSessionUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D274F52A991FD100E623B5 /* Build configuration list for PBXNativeTarget "SerialSessionUIUITests" */;
+			buildPhases = (
+				D2D274E12A991FD100E623B5 /* Sources */,
+				D2D274E22A991FD100E623B5 /* Frameworks */,
+				D2D274E32A991FD100E623B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2D274E72A991FD100E623B5 /* PBXTargetDependency */,
+			);
+			name = SerialSessionUIUITests;
+			productName = SerialSessionUIUITests;
+			productReference = D2D274E52A991FD100E623B5 /* SerialSessionUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2D274C22A991FD000E623B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D2D274C92A991FD000E623B5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D2D274DA2A991FD100E623B5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D2D274C92A991FD000E623B5;
+					};
+					D2D274E42A991FD100E623B5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D2D274C92A991FD000E623B5;
+					};
+				};
+			};
+			buildConfigurationList = D2D274C52A991FD000E623B5 /* Build configuration list for PBXProject "SerialSessionUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2D274C12A991FD000E623B5;
+			productRefGroup = D2D274CB2A991FD000E623B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2D274C92A991FD000E623B5 /* SerialSessionUI */,
+				D2D274DA2A991FD100E623B5 /* SerialSessionUITests */,
+				D2D274E42A991FD100E623B5 /* SerialSessionUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2D274C82A991FD000E623B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D274D52A991FD100E623B5 /* Preview Assets.xcassets in Resources */,
+				D2D274D22A991FD100E623B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D274D92A991FD100E623B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D274E32A991FD100E623B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2D274C62A991FD000E623B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D274D02A991FD000E623B5 /* ContentView.swift in Sources */,
+				D2D274CE2A991FD000E623B5 /* SerialSessionUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D274D72A991FD100E623B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D274E02A991FD100E623B5 /* SerialSessionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D274E12A991FD100E623B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D274EA2A991FD100E623B5 /* SerialSessionUIUITests.swift in Sources */,
+				D2D274EC2A991FD100E623B5 /* SerialSessionUIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2D274DD2A991FD100E623B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2D274C92A991FD000E623B5 /* SerialSessionUI */;
+			targetProxy = D2D274DC2A991FD100E623B5 /* PBXContainerItemProxy */;
+		};
+		D2D274E72A991FD100E623B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2D274C92A991FD000E623B5 /* SerialSessionUI */;
+			targetProxy = D2D274E62A991FD100E623B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D2D274ED2A991FD100E623B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2D274EE2A991FD100E623B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D2D274F02A991FD100E623B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SerialSessionUI/SerialSessionUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SerialSessionUI/Preview Content\"";
+				DEVELOPMENT_TEAM = KH3G9PXA68;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlynorama.SerialSessionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D2D274F12A991FD100E623B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SerialSessionUI/SerialSessionUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SerialSessionUI/Preview Content\"";
+				DEVELOPMENT_TEAM = KH3G9PXA68;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlynorama.SerialSessionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D2D274F32A991FD100E623B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH3G9PXA68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlynorama.SerialSessionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SerialSessionUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SerialSessionUI";
+			};
+			name = Debug;
+		};
+		D2D274F42A991FD100E623B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH3G9PXA68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlynorama.SerialSessionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SerialSessionUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SerialSessionUI";
+			};
+			name = Release;
+		};
+		D2D274F62A991FD100E623B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH3G9PXA68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlynorama.SerialSessionUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SerialSessionUI;
+			};
+			name = Debug;
+		};
+		D2D274F72A991FD100E623B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH3G9PXA68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlynorama.SerialSessionUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SerialSessionUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2D274C52A991FD000E623B5 /* Build configuration list for PBXProject "SerialSessionUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D274ED2A991FD100E623B5 /* Debug */,
+				D2D274EE2A991FD100E623B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D274EF2A991FD100E623B5 /* Build configuration list for PBXNativeTarget "SerialSessionUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D274F02A991FD100E623B5 /* Debug */,
+				D2D274F12A991FD100E623B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D274F22A991FD100E623B5 /* Build configuration list for PBXNativeTarget "SerialSessionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D274F32A991FD100E623B5 /* Debug */,
+				D2D274F42A991FD100E623B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D274F52A991FD100E623B5 /* Build configuration list for PBXNativeTarget "SerialSessionUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D274F62A991FD100E623B5 /* Debug */,
+				D2D274F72A991FD100E623B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2D274C22A991FD000E623B5 /* Project object */;
+}
