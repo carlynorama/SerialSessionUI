@@ -9,7 +9,7 @@ import SwiftUI
 import SerialSession
 
 struct ReadView: View {
-    @EnvironmentObject var serialReader:SerialSession
+    @EnvironmentObject var serialReader:SimpleSerialSession
     
     @State var reading:String = ""
     var body: some View {

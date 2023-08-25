@@ -9,7 +9,7 @@ import SwiftUI
 import SerialSession
 
 struct WriteView: View {
-    @EnvironmentObject var serialWriter:SerialSession
+    @EnvironmentObject var serialWriter:SimpleSerialSession
     
         @State var brightness:Double = 0.5
         var body: some View {
