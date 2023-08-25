@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D290A6EC2A992D8200CEADAB /* WriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290A6EB2A992D8200CEADAB /* WriteView.swift */; };
 		D29572962A99261100BC6CE9 /* SerialSession in Frameworks */ = {isa = PBXBuildFile; productRef = D29572952A99261100BC6CE9 /* SerialSession */; };
 		D29572982A99265100BC6CE9 /* SerialSession+Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29572972A99265100BC6CE9 /* SerialSession+Observable.swift */; };
 		D2D274CE2A991FD000E623B5 /* SerialSessionUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D274CD2A991FD000E623B5 /* SerialSessionUIApp.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D290A6EB2A992D8200CEADAB /* WriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteView.swift; sourceTree = "<group>"; };
 		D29572972A99265100BC6CE9 /* SerialSession+Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SerialSession+Observable.swift"; sourceTree = "<group>"; };
 		D2D274CA2A991FD000E623B5 /* SerialSessionUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SerialSessionUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D274CD2A991FD000E623B5 /* SerialSessionUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialSessionUIApp.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				D2D274FA2A99202A00E623B5 /* ReadView.swift */,
+				D290A6EB2A992D8200CEADAB /* WriteView.swift */,
 				D2D274CD2A991FD000E623B5 /* SerialSessionUIApp.swift */,
 				D2D274CF2A991FD000E623B5 /* ContentView.swift */,
 				D2D274D12A991FD100E623B5 /* Assets.xcassets */,
@@ -290,6 +293,7 @@
 			files = (
 				D2D274D02A991FD000E623B5 /* ContentView.swift in Sources */,
 				D29572982A99265100BC6CE9 /* SerialSession+Observable.swift in Sources */,
+				D290A6EC2A992D8200CEADAB /* WriteView.swift in Sources */,
 				D2D274FB2A99202A00E623B5 /* ReadView.swift in Sources */,
 				D2D274CE2A991FD000E623B5 /* SerialSessionUIApp.swift in Sources */,
 			);

@@ -9,8 +9,7 @@ import SwiftUI
 import SerialSession
 
 struct ReadView: View {
-//    @State var echoTest:EchoTest = EchoTest(portName: "/dev/cu.usbmodem1101")
-    @StateObject var serialReader:SerialSession = SerialSession(portName: "/dev/cu.usbmodem1201")
+    @EnvironmentObject var serialReader:SerialSession
     
     @State var reading:String = ""
     var body: some View {
