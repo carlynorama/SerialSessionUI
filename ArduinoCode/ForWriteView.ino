@@ -28,11 +28,11 @@ void setup() {
   Serial.begin(9600);
   // initialize the ledPin as an output:
   pinMode(ledPin, OUTPUT);
-  analogWrite(ledPin, 0);
+  analogWrite(ledPin, 0); //LOW is off because anode is wired to pin
 
   //ADDITION TO DIMMER CODE
   pinMode(noSignalPin, OUTPUT);
-  digitalWrite(noSignalPin, HIGH);  //HIGH is off because annode is wired to pin
+  digitalWrite(noSignalPin, HIGH);  //HIGH is off because cathode is wired to pin
 }
 
 void loop() {
