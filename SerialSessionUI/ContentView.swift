@@ -9,12 +9,23 @@ import SwiftUI
 import SerialSession
 
 struct ContentView: View {
-    @StateObject var serialSession:SimpleSerialSession = SimpleSerialSession(portName: "/dev/cu.usbmodem1101")
+    @StateObject var serialSession:SerialSession = SerialSession(devicePath: "/dev/cu.usbmodem1101")
     
     var body: some View {
         TabView {
-            ReadView()
             WriteView()
+            .tabItem {
+                Label("Send", systemImage: "tray.and.arrow.up.fill")
+            }
+            ReadAvailableBytesView()
+                .tabItem {
+                    Label("Read Bytes", systemImage: "tray.and.arrow.down.fill")
+                }
+            LineBatchView()
+                .tabItem {
+                    Label("LineBatch", systemImage: "tray.and.arrow.down.fill")
+                }
+
         }.environmentObject(serialSession)
     }
 }

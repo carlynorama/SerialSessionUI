@@ -8,26 +8,35 @@
 import SwiftUI
 import SerialSession
 
+//Assumes code on board is ForWriteView.ino
+
 struct WriteView: View {
-    @EnvironmentObject var serialWriter:SimpleSerialSession
+    @EnvironmentObject var serialWriter:SerialSession
     
-        @State var brightness:Double = 0.5
-        var body: some View {
-            VStack {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundColor(.accentColor)
-                Text("Hello, world!")
-                Slider(value: $brightness) { editing in
-                    if !editing {
-                        let val = UInt8(brightness * 255)
-                        print(val)
-                        serialWriter.sendByte(val)
+    @State var brightness:Double = 0.5
+    @State var toTransmit:UInt8 = UInt8(0.5 * 255)
+    @State var sent = "–"
+    
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text("slider:\(brightness), toSend:\(toTransmit) (\(sent))").monospaced()
+            Slider(value: $brightness) { editing in
+                if !editing {
+                    toTransmit = UInt8(brightness * 255)
+                    let result = serialWriter.send(toTransmit)
+                    switch result {
+                    case .success:
+                        sent = "√"
+                    case .failure:
+                        sent = "X"
                     }
                 }
             }
-            .padding()
         }
+        .padding()
+    }
+    
+    
 }
 
 struct WriteView_Previews: PreviewProvider {

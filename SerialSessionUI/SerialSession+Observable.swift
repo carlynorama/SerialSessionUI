@@ -8,4 +8,4 @@
 import Foundation
 import SerialSession
 
-extension SerialSession:ObservableObject { }
+extension BaseSerialSession:ObservableObject { }
