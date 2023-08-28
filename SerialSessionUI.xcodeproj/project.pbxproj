@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D28152922A9D223B00E8EC8B /* LineBatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28152912A9D223B00E8EC8B /* LineBatchView.swift */; };
 		D290A6EC2A992D8200CEADAB /* WriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290A6EB2A992D8200CEADAB /* WriteView.swift */; };
 		D29572962A99261100BC6CE9 /* SerialSession in Frameworks */ = {isa = PBXBuildFile; productRef = D29572952A99261100BC6CE9 /* SerialSession */; };
 		D29572982A99265100BC6CE9 /* SerialSession+Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29572972A99265100BC6CE9 /* SerialSession+Observable.swift */; };
@@ -17,7 +18,7 @@
 		D2D274E02A991FD100E623B5 /* SerialSessionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D274DF2A991FD100E623B5 /* SerialSessionUITests.swift */; };
 		D2D274EA2A991FD100E623B5 /* SerialSessionUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D274E92A991FD100E623B5 /* SerialSessionUIUITests.swift */; };
 		D2D274EC2A991FD100E623B5 /* SerialSessionUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D274EB2A991FD100E623B5 /* SerialSessionUIUITestsLaunchTests.swift */; };
-		D2D274FB2A99202A00E623B5 /* ReadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D274FA2A99202A00E623B5 /* ReadView.swift */; };
+		D2D274FB2A99202A00E623B5 /* ReadAvailableBytesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D274FA2A99202A00E623B5 /* ReadAvailableBytesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D28152912A9D223B00E8EC8B /* LineBatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineBatchView.swift; sourceTree = "<group>"; };
 		D290A6EB2A992D8200CEADAB /* WriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteView.swift; sourceTree = "<group>"; };
 		D29572972A99265100BC6CE9 /* SerialSession+Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SerialSession+Observable.swift"; sourceTree = "<group>"; };
 		D2D274CA2A991FD000E623B5 /* SerialSessionUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SerialSessionUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,7 +54,7 @@
 		D2D274E92A991FD100E623B5 /* SerialSessionUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialSessionUIUITests.swift; sourceTree = "<group>"; };
 		D2D274EB2A991FD100E623B5 /* SerialSessionUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialSessionUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D2D274F92A99200400E623B5 /* SerialSession */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SerialSession; path = ../SerialSession; sourceTree = "<group>"; };
-		D2D274FA2A99202A00E623B5 /* ReadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadView.swift; sourceTree = "<group>"; };
+		D2D274FA2A99202A00E623B5 /* ReadAvailableBytesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadAvailableBytesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,10 +115,11 @@
 		D2D274CC2A991FD000E623B5 /* SerialSessionUI */ = {
 			isa = PBXGroup;
 			children = (
-				D2D274FA2A99202A00E623B5 /* ReadView.swift */,
+				D2D274FA2A99202A00E623B5 /* ReadAvailableBytesView.swift */,
 				D290A6EB2A992D8200CEADAB /* WriteView.swift */,
 				D2D274CD2A991FD000E623B5 /* SerialSessionUIApp.swift */,
 				D2D274CF2A991FD000E623B5 /* ContentView.swift */,
+				D28152912A9D223B00E8EC8B /* LineBatchView.swift */,
 				D2D274D12A991FD100E623B5 /* Assets.xcassets */,
 				D2D274D62A991FD100E623B5 /* SerialSessionUI.entitlements */,
 				D2D274D32A991FD100E623B5 /* Preview Content */,
@@ -292,9 +295,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2D274D02A991FD000E623B5 /* ContentView.swift in Sources */,
+				D28152922A9D223B00E8EC8B /* LineBatchView.swift in Sources */,
 				D29572982A99265100BC6CE9 /* SerialSession+Observable.swift in Sources */,
 				D290A6EC2A992D8200CEADAB /* WriteView.swift in Sources */,
-				D2D274FB2A99202A00E623B5 /* ReadView.swift in Sources */,
+				D2D274FB2A99202A00E623B5 /* ReadAvailableBytesView.swift in Sources */,
 				D2D274CE2A991FD000E623B5 /* SerialSessionUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
