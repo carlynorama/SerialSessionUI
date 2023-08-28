@@ -27,14 +27,16 @@ struct WriteView: View {
                     switch result {
                     case .success:
                         sent = "√"
-                    case .failure:
+                    case .failure(let error):
                         sent = "X"
+                        print(error)
                     }
                 }
             }
         }
         .padding()
     }
+    
     
     
 }
