@@ -1,9 +1,6 @@
 # SerialSessionUI
 
-SwiftUI project for testing [SerialSession](https://github.com/carlynorama/SerialSession) Library. 
+SwiftUI project for testing [SerialSession](https://github.com/carlynorama/SerialSession) Library, which depends on [SwiftSerialPort](https://github.com/carlynorama/SwiftSerialPort).
 
-# WARNING!
+This project uses SerialSession as a local dependency. SwiftSerialPort is a remote dependency pinned to the main branch at the moment. 
 
-Currently project will hang if enter ReadView() attached to a valid serial port, but one that is not sending any data.
-
-On the TODO list. 

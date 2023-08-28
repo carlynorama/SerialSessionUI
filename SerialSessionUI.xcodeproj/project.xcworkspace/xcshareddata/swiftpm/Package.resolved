@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/carlynorama/swiftserialport.git",
       "state" : {
-        "branch" : "dev",
-        "revision" : "47cc49794321f566cf1dc54b1751d7883cde0baa"
+        "branch" : "main",
+        "revision" : "727fbcbd9481098271d4ae60187bed16c206fbb7"
       }
     }
   ],
