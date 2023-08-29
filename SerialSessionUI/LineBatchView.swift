@@ -8,6 +8,8 @@
 import SwiftUI
 import SerialSession
 
+//Assumes code on board is ForReadStringView.ino
+
 struct LineBatchView: View {
     @EnvironmentObject var serialReader:SerialSession
     
